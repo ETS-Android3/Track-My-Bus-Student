@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/recViewFragment">
+
+
+    <fragment
+        android:id="@+id/myProfileFragment"
+        android:name="com.example.trackmybusstudent.MyProfileFragment"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_my_profile" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.trackmybusstudent.MapFragment"
+        android:label="Google Map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/recViewFragment"
+        android:name="com.example.trackmybusstudent.RecViewFragment"
+        android:label="All Buses"
+        tools:layout="@layout/fragment_rec_view" />
+    <fragment
+        android:id="@+id/busFragment"
+        android:name="com.example.trackmybusstudent.BusFragment"
+        android:label="My Bus"
+        tools:layout="@layout/fragment_bus" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.trackmybusstudent.InfoFragment"
+        android:label="Information"
+        tools:layout="@layout/fragment_info" />
+</navigation>

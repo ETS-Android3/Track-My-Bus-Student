@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navprofile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="MY PROFILE"/>
+    <item
+        android:id="@+id/navmap"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="MAP"/>
+    <item
+        android:id="@+id/navhome"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="HOME"/>
+    <item
+        android:id="@+id/navmybus"
+        android:icon="@drawable/ic_baseline_directions_bus_24"
+        android:title="MY BUS"/>
+    <item
+    android:id="@+id/navinfo"
+    android:icon="@drawable/ic_baseline_info_24"
+    android:title="INFO"/>
+
+
+
+
+
+</menu>
